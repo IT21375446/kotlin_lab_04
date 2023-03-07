@@ -4,12 +4,159 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F8F6F6"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F8F6F6"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F8F6F6"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F8F6F6"
+                android:orientation="vertical"
+                tools:context=".MainActivity">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="57dp"
+                    android:text="Enter email"
+                    android:textColor="#050505"
+                    android:textColorHighlight="#020202"
+                    android:textColorHint="#121111"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:text="Enter email"
+                    android:textColor="#050505"
+                    android:textColorHighlight="#020202"
+                    android:textColorHint="#121111"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="67dp"
+                    android:text="Enter password"
+                    android:textColor="#050505"
+                    android:textColorHighlight="#020202"
+                    android:textColorHint="#121111"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:text="Re Enter password"
+                    android:textColor="#050505"
+                    android:textColorHighlight="#020202"
+                    android:textColorHint="#121111"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SUBMIT"
+                    android:textSize="34sp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CANCEL"
+                    android:textSize="34sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="enter email"
+                android:textColor="#050505"
+                android:textColorHighlight="#020202"
+                android:textColorHint="#121111"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="enter email"
+                android:textColor="#050505"
+                android:textColorHighlight="#020202"
+                android:textColorHint="#121111"
+                android:textSize="60sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="enter email"
+                android:textColor="#050505"
+                android:textColorHighlight="#020202"
+                android:textColorHint="#121111"
+                android:textSize="60sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="enter email"
+            android:textColor="#050505"
+            android:textColorHighlight="#020202"
+            android:textColorHint="#121111"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="enter email"
+            android:textColor="#050505"
+            android:textColorHighlight="#020202"
+            android:textColorHint="#121111"
+            android:textSize="60sp" />
+
+    </LinearLayout>
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="enter email"
+        android:textColor="#050505"
+        android:textColorHighlight="#020202"
+        android:textColorHint="#121111"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter email"
+        android:textColor="#050505"
+        android:textColorHighlight="#020202"
+        android:textColorHint="#121111"
+        android:textSize="60sp" />
 
 </LinearLayout>
